@@ -1,0 +1,15 @@
+dependencies[] = "feeds"
+description = "Feed for Importing Project CSV"
+features[ctools][] = "feeds:feeds_importer_default:1"
+features[feeds_importer][] = "projects"
+name = "MNN Project Import"
+package = "MNN Features"
+php = "5.2.4"
+
+
+package = "MNN Community Media Advanced"
+version = "7.x-1.x"
+core = "7.x"
+project = "mnn_project_import"
+project_status_url = https://github.com/cm-advanced/mnn_project_import
+php = "5.2.4"
